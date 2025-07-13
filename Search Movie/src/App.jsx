@@ -1,14 +1,13 @@
 import "./App.css";
 import MovieCard from "./components/MovieCard";
+import Home from "./pages/Home";
 
 function App() {
   const movienum = 1;
 
   return (
     <>
-      {movienum === 1 && (
-        <MovieCard movie={{ title: "hello", release_date: "ddgdg" }} />
-      )}
+      <Home />
     </>
   );
 }

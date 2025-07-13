@@ -1,14 +1,13 @@
 import React from "react";
 
 const MovieCard = ({ movie }) => {
-  console.log(movie.release_data);
   function onFavoriteClick() {
     alert("clicked");
   }
   return (
     <div className="movie-card">
       <div className="movie-poster">
-        <img src={MovieCard.url} alt={MovieCard.title} />
+        <img src={movie.url} alt={movie.title} />
         <div className="movie-overlay">
           <button className="favorite btn" onClick={onFavoriteClick}>
             ❤︎
