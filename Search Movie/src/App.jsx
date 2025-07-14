@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/app.css";
 import MovieCard from "./components/MovieCard";
 import Navbar from "./components/Navbar";
 import Favorites from "./pages/Favorites";
